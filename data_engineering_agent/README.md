@@ -3,8 +3,11 @@
 This is a guide to building a data engineering assistant in 10-15 mins. If you'd like to build a more robust version of this, see "Snowflake Housekeeping Agent" instructions. 
 
 ### Set the context 
-```USE DATABASE [YOUR_ASSIGNED_DATABASE];
-CREATE SCHEMA IF NOT EXISTS SEMANTIC_VIEWS;```
+```
+USE DATABASE [YOUR_ASSIGNED_DATABASE];
+CREATE SCHEMA IF NOT EXISTS SEMANTIC_VIEWS;
+```
+
 
 ### Step 1: Connect to Snowflake Knowledge Base
 Note: If the Snowflake Documentation CKE has already been added to your account, you only need to validate that you see it and can access it. However, it is helpful to navigate to the Marketplace to see how you would get it if you needed to. 
