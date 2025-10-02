@@ -10,7 +10,7 @@
 - Select Create
 
 #### train
-- Upload the 13 .pdf resumes available here to train the zero-shot model
+- Upload the 13 .pdf resumes available in the resumes folder to train the zero-shot model
 - See question optimization documentation for extracting information with Document AI
 1. Use plain English
 2. Know the expected answers beforehand
