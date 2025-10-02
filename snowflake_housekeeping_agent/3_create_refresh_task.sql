@@ -1,7 +1,7 @@
 -- Create automated task for daily query history refresh
 -- Run this AFTER initial materialization is complete
 
-USE DATABASE PLATFORM_ANALYTICS;
+USE DATABASE [YOUR_ASSIGNED_DATABASE];
 USE SCHEMA PUBLIC;
 
 -- Create stored procedure for the refresh logic
