@@ -1,7 +1,7 @@
 -- Materialize QUERY_HISTORY data for Cortex Search Service
 -- Creates a physical table with 60 days of query history data
 
-USE DATABASE PLATFORM_ANALYTICS;
+USE DATABASE [YOUR_ASSIGNED_DATABASE];
 USE SCHEMA PUBLIC;
 
 -- Create the physical table structure
