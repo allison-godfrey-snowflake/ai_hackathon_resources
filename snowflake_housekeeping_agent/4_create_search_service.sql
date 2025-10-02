@@ -1,7 +1,7 @@
 -- Create Cortex Search Service on materialized QUERY_HISTORY data
 -- Run this AFTER materializing the query history data
 
-USE DATABASE PLATFORM_ANALYTICS;
+USE DATABASE [YOUR_ASSIGNED_DATABASE];
 USE SCHEMA PUBLIC;
 
 -- Create the Cortex Search Service
