@@ -1,5 +1,5 @@
 # Auto Dealer Navigator
-Use case: Use case: Capital One auto dealerships want to be able to "chat with their data" in lieu of BI dashboards (i.e. AI for BI). As an example, they want to be able to ask real-time questions of their loan application and customer feedback data in natural language. 
+Use case: Capital One auto dealerships want to be able to "chat with their data" in lieu of BI dashboards (i.e. AI for BI). As an example, they want to be able to ask real-time questions of their loan application and customer feedback data in natural language. 
 The synthetic data you can use for this use case is contained in the database AUTO_DEALER_NAVIGATOR. This document provides some general advice + broad steps to enable the use case, but is not as specific as the other guides and leaves many decisions up to you (on purpose)! 
 
 Note: This does not include the actual setup of dealer accounts only having access to their subset of data, since that would imply creating many SF accounts. In production, there are many different ways to set up these row-access policies that you can talk to our Snowflake team about on OH if you're interested!
