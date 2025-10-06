@@ -48,7 +48,7 @@ ATTRIBUTES (
     BYTES_SPILLED_TO_LOCAL_STORAGE,
     BYTES_SPILLED_TO_REMOTE_STORAGE
 )
-WAREHOUSE = COMPUTE_WH  -- Change this to your preferred warehouse
+WAREHOUSE = [YOUR_WH]  -- Change this to your preferred warehouse
 TARGET_LAG = '1 HOUR'   -- How often to refresh the search index
 AS
 SELECT 
