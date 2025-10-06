@@ -53,3 +53,9 @@ Primary features used: Document AI
 2. Synthetic Data: snowflake_sample_data
 - Contains sample data about customers, orders, products, etc. We recommend starting with TPCH_SF100 schema.
 
+### Other resources
+Here are a few other recommended resources to explore, scan the code, etc. If you'd like the underlying synthetic data set up in the test accounts, let the Snowflake team know! 
+1. AI-Ready Data Sharing with SEC Filing Docs (includes dynamic tables): [Github Repo](https://github.com/mrecos/Snowflake/tree/main/AI_READY_Data_Pipeline)
+2. Price Optimization with Snowpark: [Github Repo](https://github.com/mrecos/Snowflake/blob/main/Price%20Optimization%20QS/Price%20Optimization%20QS.ipynb)
+3. AISQL Equity Research: [Github Repo](https://github.com/mrecos/Snowflake/tree/main/AISQL%20Equity%20Research)
+
