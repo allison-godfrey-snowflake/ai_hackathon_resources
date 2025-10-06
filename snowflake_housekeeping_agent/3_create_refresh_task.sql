@@ -138,7 +138,7 @@ $$;
 
 -- Create the task to run daily at 2 AM
 CREATE OR REPLACE TASK REFRESH_QUERY_HISTORY_TASK
-  WAREHOUSE = COMPUTE_WH  -- Replace with your warehouse
+  WAREHOUSE = YOUR_WH  -- Replace with your warehouse
   SCHEDULE = 'USING CRON 0 2 * * * UTC'  -- Daily at 2 AM UTC
   COMMENT = 'Daily refresh of materialized query history for search service'
 AS
