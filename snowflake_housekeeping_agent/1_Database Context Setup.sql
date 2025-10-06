@@ -1,8 +1,7 @@
 -- USE ROLE ACCOUNTADMIN;
 
--- 1. Create a dedicated database for platform-level analytics
-USE DATABASE [YOUR_ASSIGNED_DATABASE]
-  COMMENT = 'Database for platform-level analytics, governance models, and operational monitoring.';
+-- 1. Use your assigned database, or create a new database called PLATFORM_ANALYTICS_[YOUR_ROLE_NAME]
+USE DATABASE [YOUR_ASSIGNED_DATABASE];
 
 -- 2. Create a schema within the new database to hold semantic models
 CREATE SCHEMA IF NOT EXISTS [YOUR_ASSIGNED_DATABASE].SEMANTIC_MODELS
